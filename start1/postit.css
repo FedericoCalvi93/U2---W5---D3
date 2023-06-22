@@ -1,0 +1,141 @@
+html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-fresh-chalkboard-stationery-ad-background-backgroundblackboardhand-paintedbooktextbookstationeryfreshknow-how-image_75849.jpg); background-repeat: no-repeat; background-size: cover;
+    }
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: 'Indie Flower', cursive;
+  }
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-style: inherit;
+}
+
+  #postit {
+    display: flex;
+  }
+
+#postit article:hover {
+    transform: scale(2);
+    background-color: blue;
+    z-index: 1;
+    transition: all 2s;
+}
+
+#postit-1 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right, #ffee00, #0108019a);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    transform: rotate(-10deg)
+}
+
+#postit-2 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: greenyellow;
+    background-image: linear-gradient(to bottom right, greenyellow, #0108019a);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    transform: rotate(10deg);
+    
+}
+
+#postit-3 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: purple;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, purple, #0108019a);
+    transform: rotate(-10deg);
+}
+
+#postit-4 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, greenyellow, #0108019a);
+    transform: rotate(10deg);
+}
+
+#postit-5 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, yellow, #0108019a);
+    transform: rotate(-10deg);
+}
+
+#postit-6 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: purple;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, purple, #0108019a);
+    transform: rotate(10deg);
+}
+
+#postit-7 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, yellow, #0108019a);
+    transform: rotate(-10deg);
+}
+
+#postit-8 {
+    border: 1px solid black;
+    padding: 0px 20px 40px;
+    width:90px;
+    height:90px;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.788);
+    background-image: linear-gradient(to bottom right, greenyellow, #0108019a);
+    transform: rotate(10deg);
+}
+
+@keyframes postitStopping {
+    0% {
+      transform: translate(0px);
+    }
+
+    100% {
+      transform: translate(500px);
+    }
+}
+
+.postit-stopped {
+    animation: postitStopping 3s linear 0s forwards;
+  }
